@@ -1,9 +1,9 @@
-git config --global user.name "fouad"
-git config --global user.email "6403665-fouad-dev@users.noreply.gitlab.com"
+git config --global user.name "usrname"
+git config --global user.email "email"
 
 Create a new repository
-git clone git@gitlab.com:fouad-dev/archlinuxinstall.git
-cd archlinuxinstall
+git clone 
+cd gi repo
 git switch -c main
 touch README.md
 git add README.md
@@ -13,7 +13,7 @@ git push -u origin main
 Push an existing folder
 cd existing_folder
 git init --initial-branch=main
-git remote add origin git@gitlab.com:fouad-dev/archlinuxinstall.git
+git remote add origin 
 git add .
 git commit -m "Initial commit"
 git push -u origin main
@@ -21,6 +21,6 @@ git push -u origin main
 Push an existing Git repository
 cd existing_repo
 git remote rename origin old-origin
-git remote add origin git@gitlab.com:fouad-dev/archlinuxinstall.git
+git remote add origin 
 git push -u origin --all
 git push -u origin --tags
