@@ -1,0 +1,15 @@
+and 
+f f = f
+f t = f
+t f = f
+t t = t
+
+or 
+f f = f
+t f = t
+f t = t
+t t = t
+
+not 
+t = f
+f = t
